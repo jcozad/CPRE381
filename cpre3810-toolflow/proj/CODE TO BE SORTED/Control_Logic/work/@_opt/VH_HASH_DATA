@@ -1,0 +1,117 @@
+[N
+11
+7
+16 adder_subtractor
+1
+93 /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/work
+8
+19 tb_adder_subtractor
+5
+8 mux2t1_n
+4
+1 N
+9
+5 mixed
+6
+24 n_bit_ripple_adder_struc
+11
+10 DATA_WIDTH
+3
+10 structural
+10
+9 gCLK_HPER
+2
+10 onescomp_n
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+7
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+5
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+8
+9
+1
+11
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+6
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+8
+9
+1
+10
+0
+0
+0
+0
+8 8
+-128
+-106
+-104
+0
+0
+0
+0
+0
+0
+0
+]

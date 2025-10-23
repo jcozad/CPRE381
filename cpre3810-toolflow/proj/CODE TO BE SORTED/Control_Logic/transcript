@@ -1,0 +1,510 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vsim work.tb_alu -voptargs=+acc
+# vsim work.tb_alu -voptargs="+acc" 
+# Start time: 12:45:09 on Oct 23,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_alu(mixed)#1
+# Loading work.alu(structural)#1
+# Loading work.add_sub_slt(structural)#1
+# Loading work.adder_subtractor(structural)#1
+# Loading work.onescomp_n(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_data(dataflow)#1
+# Loading work.n_bit_ripple_adder_struc(structural)#1
+# Loading work.adder_struc(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.extender_1to32(behavioral)#1
+# Loading work.and_xor(structural)#1
+# Loading work.xorg2_n(structural)#1
+# Loading work.andg2_n(structural)#1
+# Loading work.or_nor(structural)#1
+# Loading work.org2_n(structural)#1
+# Loading ieee.numeric_std(body)
+# Loading work.barrelshifter(behavioral)#1
+# Loading work.org2_n(structural)#2
+# Loading work.extender_32to1(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_alu/s_A \
+sim:/tb_alu/s_ALUControl \
+sim:/tb_alu/s_ALUOut \
+sim:/tb_alu/s_B \
+sim:/tb_alu/s_Overflow \
+sim:/tb_alu/s_Zero
+run 500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu/DUT0/shifter
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:21:39 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 13:21:40 on Oct 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:21:40 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 13:21:40 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+run 500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu/DUT0/shifter
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Adder_STRUC.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Adder_Subtractor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/and_xor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/andg2.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/andg2_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/barrelShifter.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/bit32_32_1Mux.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Control_Logic.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/DF_5to32_Decoder.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/dffg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_1to32.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_12t32.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_32to1.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Fetch_Logic.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/invg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mem.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_DATA.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_STR.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/MyFirstRISCVDatapath.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/MySecondRISCVDatapath.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/N_bit_Register.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/N_bit_Ripple_Adder_STRUC.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/onescomp_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/or_nor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/org2.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/org2_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Register_File.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Adder_Subtractor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_barrelShifter.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Control_Logic.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_dmem.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_extender_12t32.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Fetch_Logic.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_MyFirstRISCVDatapath.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_MySecondRISCVDatapath.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/xorg2.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/xorg2_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/add_sub_slt.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:23:03 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Adder_STRUC.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Adder_Subtractor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/and_xor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/andg2.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/andg2_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/barrelShifter.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/bit32_32_1Mux.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Control_Logic.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/DF_5to32_Decoder.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/dffg.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_1to32.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_12t32.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_32to1.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Fetch_Logic.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/invg.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mem.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_DATA.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_STR.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/MyFirstRISCVDatapath.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/MySecondRISCVDatapath.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/N_bit_Register.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/N_bit_Ripple_Adder_STRUC.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/onescomp_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/or_nor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/org2.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/org2_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Register_File.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Adder_Subtractor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_barrelShifter.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Control_Logic.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_dmem.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_extender_12t32.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Fetch_Logic.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_MyFirstRISCVDatapath.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_MySecondRISCVDatapath.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/xorg2.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/xorg2_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/add_sub_slt.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder_STRUC
+# -- Compiling architecture Structural of Adder_STRUC
+# -- Compiling entity Adder_Subtractor
+# -- Compiling architecture Structural of Adder_Subtractor
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Compiling entity and_xor
+# -- Compiling architecture Structural of and_xor
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity andg2_N
+# -- Compiling architecture structural of andg2_N
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrelShifter
+# -- Compiling architecture behavioral of barrelShifter
+# -- Compiling entity bit32_32_1Mux
+# -- Compiling architecture Dataflow of bit32_32_1Mux
+# -- Compiling entity Control_Logic
+# -- Compiling architecture Behavioral of Control_Logic
+# -- Compiling entity DF_5to32_Decoder
+# -- Compiling architecture Dataflow of DF_5to32_Decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Compiling entity extender_1to32
+# -- Compiling architecture behavioral of extender_1to32
+# -- Compiling entity extender_12t32
+# -- Compiling architecture rtl of extender_12t32
+# -- Compiling entity extender_32to1
+# -- Compiling architecture dataflow of extender_32to1
+# -- Compiling entity Fetch_Logic
+# -- Compiling architecture Structural of Fetch_Logic
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Compiling entity mux2t1
+# -- Compiling architecture Dataflow of mux2t1
+# -- Compiling entity mux2t1_DATA
+# -- Compiling architecture Dataflow of mux2t1_DATA
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity mux2t1_STR
+# -- Compiling architecture Structural of mux2t1_STR
+# -- Compiling entity MyFirstRISCVDatapath
+# -- Compiling architecture Structural of MyFirstRISCVDatapath
+# -- Compiling entity MySecondRISCVDatapath
+# -- Compiling architecture Structural of MySecondRISCVDatapath
+# -- Compiling entity N_bit_Register
+# -- Compiling architecture Structural of N_bit_Register
+# -- Compiling entity N_bit_Ripple_Adder_STRUC
+# -- Compiling architecture Structural of N_bit_Ripple_Adder_STRUC
+# -- Compiling entity onescomp_N
+# -- Compiling architecture structural of onescomp_N
+# -- Compiling entity or_nor
+# -- Compiling architecture Structural of or_nor
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity org2_N
+# -- Compiling architecture structural of org2_N
+# -- Compiling entity Register_File
+# -- Compiling architecture Structural of Register_File
+# ** Error: (vcom-11) Could not find work.riscv_types.
+# ** Error (suppressible): /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd(22): (vcom-1195) Cannot find expanded name "work.RISCV_types".
+# ** Error: /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd(22): Unknown expanded name.
+# ** Note: /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd(24): VHDL Compiler exiting
+# End time: 13:23:03 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:24:46 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 13:24:46 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:24:47 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 13:24:47 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_alu(mixed)#1
+# Loading work.alu(structural)#1
+# Loading work.add_sub_slt(structural)#1
+# Loading work.adder_subtractor(structural)#1
+# Loading work.onescomp_n(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_data(dataflow)#1
+# Loading work.n_bit_ripple_adder_struc(structural)#1
+# Loading work.adder_struc(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.extender_1to32(behavioral)#1
+# Loading work.and_xor(structural)#1
+# Loading work.xorg2_n(structural)#1
+# Loading work.andg2_n(structural)#1
+# Loading work.or_nor(structural)#1
+# Loading work.org2_n(structural)#1
+# Loading ieee.numeric_std(body)
+# Loading work.barrelshifter(behavioral)#1
+# Loading work.org2_n(structural)#2
+# Loading work.extender_32to1(dataflow)#1
+run 500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu/DUT0/shifter
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:25:30 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 13:25:30 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:25:31 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 13:25:31 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_alu(mixed)#1
+# Loading work.alu(structural)#1
+# Loading work.add_sub_slt(structural)#1
+# Loading work.adder_subtractor(structural)#1
+# Loading work.onescomp_n(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_data(dataflow)#1
+# Loading work.n_bit_ripple_adder_struc(structural)#1
+# Loading work.adder_struc(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.extender_1to32(behavioral)#1
+# Loading work.and_xor(structural)#1
+# Loading work.xorg2_n(structural)#1
+# Loading work.andg2_n(structural)#1
+# Loading work.or_nor(structural)#1
+# Loading work.org2_n(structural)#1
+# Loading ieee.numeric_std(body)
+# Loading work.barrelshifter(behavioral)#1
+# Loading work.org2_n(structural)#2
+# Loading work.extender_32to1(dataflow)#1
+run 500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu/DUT0/shifter
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:27:04 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 13:27:04 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_alu(mixed)#1
+# Loading work.alu(structural)#1
+# Loading work.add_sub_slt(structural)#1
+# Loading work.adder_subtractor(structural)#1
+# Loading work.onescomp_n(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_data(dataflow)#1
+# Loading work.n_bit_ripple_adder_struc(structural)#1
+# Loading work.adder_struc(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.extender_1to32(behavioral)#1
+# Loading work.and_xor(structural)#1
+# Loading work.xorg2_n(structural)#1
+# Loading work.andg2_n(structural)#1
+# Loading work.or_nor(structural)#1
+# Loading work.org2_n(structural)#1
+# Loading ieee.numeric_std(body)
+# Loading work.barrelshifter(behavioral)#1
+# Loading work.org2_n(structural)#2
+# Loading work.extender_32to1(dataflow)#1
+run 500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu/DUT0/shifter
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:27:50 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 13:27:50 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_alu(mixed)#1
+# Loading work.alu(structural)#1
+# Loading work.add_sub_slt(structural)#1
+# Loading work.adder_subtractor(structural)#1
+# Loading work.onescomp_n(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_data(dataflow)#1
+# Loading work.n_bit_ripple_adder_struc(structural)#1
+# Loading work.adder_struc(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.extender_1to32(behavioral)#1
+# Loading work.and_xor(structural)#1
+# Loading work.xorg2_n(structural)#1
+# Loading work.andg2_n(structural)#1
+# Loading work.or_nor(structural)#1
+# Loading work.org2_n(structural)#1
+# Loading ieee.numeric_std(body)
+# Loading work.barrelshifter(behavioral)#1
+# Loading work.org2_n(structural)#2
+# Loading work.extender_32to1(dataflow)#1
+run 500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu/DUT0/shifter
+quit -sim
+# End time: 13:29:22 on Oct 23,2025, Elapsed time: 0:44:13
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Adder_STRUC.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Adder_Subtractor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/and_xor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/andg2.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/andg2_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/barrelShifter.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/bit32_32_1Mux.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Control_Logic.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/DF_5to32_Decoder.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/dffg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_1to32.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_12t32.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_32to1.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Fetch_Logic.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/invg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mem.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_DATA.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_STR.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/MyFirstRISCVDatapath.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/MySecondRISCVDatapath.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/N_bit_Register.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/N_bit_Ripple_Adder_STRUC.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/onescomp_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/or_nor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/org2.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/org2_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Register_File.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Adder_Subtractor.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_barrelShifter.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Control_Logic.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_dmem.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_extender_12t32.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Fetch_Logic.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_MyFirstRISCVDatapath.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_MySecondRISCVDatapath.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/xorg2.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/xorg2_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/add_sub_slt.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:32:45 on Oct 23,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Adder_STRUC.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Adder_Subtractor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/and_xor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/andg2.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/andg2_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/barrelShifter.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/bit32_32_1Mux.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Control_Logic.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/DF_5to32_Decoder.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/dffg.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_1to32.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_12t32.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/extender_32to1.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Fetch_Logic.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/invg.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mem.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_DATA.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/mux2t1_STR.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/MyFirstRISCVDatapath.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/MySecondRISCVDatapath.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/N_bit_Register.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/N_bit_Ripple_Adder_STRUC.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/onescomp_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/or_nor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/org2.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/org2_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/Register_File.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Adder_Subtractor.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_ALU.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_barrelShifter.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Control_Logic.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_dmem.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_extender_12t32.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_Fetch_Logic.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_MyFirstRISCVDatapath.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/tb_MySecondRISCVDatapath.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/xorg2.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/xorg2_N.vhd /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/add_sub_slt.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder_STRUC
+# -- Compiling architecture Structural of Adder_STRUC
+# -- Compiling entity Adder_Subtractor
+# -- Compiling architecture Structural of Adder_Subtractor
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# -- Compiling entity and_xor
+# -- Compiling architecture Structural of and_xor
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity andg2_N
+# -- Compiling architecture structural of andg2_N
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrelShifter
+# -- Compiling architecture behavioral of barrelShifter
+# -- Compiling entity bit32_32_1Mux
+# -- Compiling architecture Dataflow of bit32_32_1Mux
+# -- Compiling entity Control_Logic
+# -- Compiling architecture Behavioral of Control_Logic
+# -- Compiling entity DF_5to32_Decoder
+# -- Compiling architecture Dataflow of DF_5to32_Decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Compiling entity extender_1to32
+# -- Compiling architecture behavioral of extender_1to32
+# -- Compiling entity extender_12t32
+# -- Compiling architecture rtl of extender_12t32
+# -- Compiling entity extender_32to1
+# -- Compiling architecture dataflow of extender_32to1
+# -- Compiling entity Fetch_Logic
+# -- Compiling architecture Structural of Fetch_Logic
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Compiling entity mux2t1
+# -- Compiling architecture Dataflow of mux2t1
+# -- Compiling entity mux2t1_DATA
+# -- Compiling architecture Dataflow of mux2t1_DATA
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity mux2t1_STR
+# -- Compiling architecture Structural of mux2t1_STR
+# -- Compiling entity MyFirstRISCVDatapath
+# -- Compiling architecture Structural of MyFirstRISCVDatapath
+# -- Compiling entity MySecondRISCVDatapath
+# -- Compiling architecture Structural of MySecondRISCVDatapath
+# -- Compiling entity N_bit_Register
+# -- Compiling architecture Structural of N_bit_Register
+# -- Compiling entity N_bit_Ripple_Adder_STRUC
+# -- Compiling architecture Structural of N_bit_Ripple_Adder_STRUC
+# -- Compiling entity onescomp_N
+# -- Compiling architecture structural of onescomp_N
+# -- Compiling entity or_nor
+# -- Compiling architecture Structural of or_nor
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity org2_N
+# -- Compiling architecture structural of org2_N
+# -- Compiling entity Register_File
+# -- Compiling architecture Structural of Register_File
+# ** Error: (vcom-11) Could not find work.riscv_types.
+# ** Error (suppressible): /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd(22): (vcom-1195) Cannot find expanded name "work.RISCV_types".
+# ** Error: /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd(22): Unknown expanded name.
+# ** Note: /home/pgask26/cpre381/CPRE381 NEW/cpre3810-toolflow/proj/CODE TO BE SORTED/Control_Logic/RISCV_Processor.vhd(24): VHDL Compiler exiting
+# End time: 13:32:45 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vsim -voptargs=+acc work.tb_alu
+# vsim -voptargs="+acc" work.tb_alu 
+# Start time: 13:33:04 on Oct 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_alu(mixed)#1
+# Loading work.alu(structural)#1
+# Loading work.add_sub_slt(structural)#1
+# Loading work.adder_subtractor(structural)#1
+# Loading work.onescomp_n(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1_data(dataflow)#1
+# Loading work.n_bit_ripple_adder_struc(structural)#1
+# Loading work.adder_struc(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.extender_1to32(behavioral)#1
+# Loading work.and_xor(structural)#1
+# Loading work.xorg2_n(structural)#1
+# Loading work.andg2_n(structural)#1
+# Loading work.or_nor(structural)#1
+# Loading work.org2_n(structural)#1
+# Loading ieee.numeric_std(body)
+# Loading work.barrelshifter(behavioral)#1
+# Loading work.org2_n(structural)#2
+# Loading work.extender_32to1(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_alu/s_A \
+sim:/tb_alu/s_ALUControl \
+sim:/tb_alu/s_ALUOut \
+sim:/tb_alu/s_B \
+sim:/tb_alu/s_Overflow \
+sim:/tb_alu/s_Zero
+run 500
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu/DUT0/shifter
+quit -sim
+# End time: 13:36:40 on Oct 23,2025, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 2

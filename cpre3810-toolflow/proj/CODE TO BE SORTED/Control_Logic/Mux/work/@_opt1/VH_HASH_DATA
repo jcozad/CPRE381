@@ -1,0 +1,49 @@
+[N
+5
+3
+5 mixed
+2
+14 tb_mux2t1_data
+5
+10 DATA_WIDTH
+1
+61 /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/Mux/work
+4
+9 gCLK_HPER
+]
+[G
+1
+2
+3
+1
+5
+0
+0
+8
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+4
+0
+0
+0
+0
+8 8
+-128
+-106
+-104
+0
+0
+0
+0
+0
+0
+0
+]
