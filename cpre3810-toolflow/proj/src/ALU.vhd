@@ -1,0 +1,137 @@
+--Structural modeling describes the interconnection of components or entities (like gates, --modules, or other components). It’s like connecting pieces of hardware together. You --instantiate entities and wire them together to form a larger system.
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity ALU is
+    Port ( A : in std_logic_vector(31 downto 0);
+           B : in std_logic_vector(31 downto 0);
+           ALUControl : in std_logic_vector(3 downto 0);
+           Overflow : out STD_LOGIC;
+           Zero : out STD_LOGIC;
+           ALUOut : out std_logic_vector(31 downto 0));
+end ALU;
+
+architecture Structural of ALU is
+
+    component add_sub_slt
+    Port ( A : in std_logic_vector(31 downto 0);
+           B : in std_logic_vector(31 downto 0);
+           AddORSub : in STD_LOGIC; --0 is add, 1 is sub
+           DoSlt : in STD_LOGIC; --output slt extended if 1
+           Cout : out STD_LOGIC;
+           Output : out std_logic_vector(31 downto 0));
+    end component;
+
+    component and_xor
+    Port ( A : in std_logic_vector(31 downto 0);
+           B : in std_logic_vector(31 downto 0);
+           andORxor : in STD_LOGIC;
+           outVal : out std_logic_vector(31 downto 0));
+    end component;
+
+    component or_nor
+    Port ( A : in std_logic_vector(31 downto 0);
+           B : in std_logic_vector(31 downto 0);
+           orORNor : in STD_LOGIC;
+           Sum : out std_logic_vector(31 downto 0));
+    end component;
+
+    component mux2t1_N
+  generic(N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
+  port(i_S          : in std_logic;
+       i_D0         : in std_logic_vector(N-1 downto 0);
+       i_D1         : in std_logic_vector(N-1 downto 0);
+       o_O          : out std_logic_vector(N-1 downto 0));
+    end component;
+
+    component barrelShifter
+  Port (
+    shiftAmount         : in  std_logic_vector(4 downto 0);
+    leftORright         : in  std_logic;        -- '0' = left, '1' = right
+    logicalORarithmatic : in  std_logic;        -- when RIGHT: '0' = SRL, '1' = SRA
+    dataIN              : in  std_logic_vector(31 downto 0);
+    dataOUT             : out std_logic_vector(31 downto 0)
+  );
+    end component;
+
+    component onescomp_N
+  generic(N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
+  port(i_Input         : in std_logic_vector(N-1 downto 0);
+       o_O          : out std_logic_vector(N-1 downto 0));
+    end component;
+
+    component org2_N
+  generic(N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
+  port(i_A          : in std_logic_vector(N-1 downto 0);
+       i_B          : in std_logic_vector(N-1 downto 0);
+       o_F          : out std_logic_vector(N-1 downto 0));
+    end component;
+
+    component extender_32to1
+    port (
+        ivalue : in  STD_LOGIC_VECTOR(31 downto 0);
+        ovalue : out STD_LOGIC
+    );
+    end component;
+
+    --ADD IN COMPONMENT FOR AN XOR GATE?? HOW TO OUTPUT THAT ZERO BIT??
+
+    signal orTONot : std_logic_vector(31 downto 0);
+    signal addSubTOMUX1 : std_logic_vector(31 downto 0);
+    signal andTOMUX2 : std_logic_vector(31 downto 0);
+    signal orTOMUX2 : std_logic_vector(31 downto 0);
+    signal mux2TOmux1 : std_logic_vector(31 downto 0);
+    signal mux3TOmuxLast : std_logic_vector(31 downto 0);
+    signal shifterTOmux4 : std_logic_vector(31 downto 0);
+    signal mux4TOmuxLAST : std_logic_vector(31 downto 0);
+    signal WIRE : std_logic_vector(31 downto 0);
+    signal WIRE2 : std_logic_vector(31 downto 0);
+
+    signal aluCONTROL1 : STD_LOGIC;
+    signal aluCONTROL2 : STD_LOGIC;
+    signal aluCONTROL3 : STD_LOGIC;
+    signal aluCONTROL4 : STD_LOGIC;
+    signal shamt : std_logic_vector(4 downto 0);
+
+begin
+
+    aluCONTROL1 <= ALUControl(0); --sel 0
+    aluCONTROL2 <= ALUControl(1); --sel 1
+    aluCONTROL3 <= ALUControl(2); --sel 2
+    aluCONTROL4 <= ALUControl(3); --
+
+    shamt(0) <= B(0);
+    shamt(1) <= B(1);
+    shamt(2) <= B(2);
+    shamt(3) <= B(3);
+    shamt(4) <= B(4);
+
+    addorsuborslt: add_sub_slt Port map (A, B, aluCONTROL1, aluCONTROL4, Overflow, addSubTOMUX1);
+
+    andXor: and_xor Port map (A, B, aluCONTROL4, andTOMUX2);
+
+    ororNor: or_nor Port map (A, B, aluCONTROL4, orTOMUX2);
+
+    MUX2: mux2t1_N Port map (aluCONTROL1, andTOMUX2, orTOMUX2, mux2TOmux1); --select IS BASED ON ALUCONTROL BIT 1 (ex. 000"0")
+
+    MUX3: mux2t1_N Port map (aluCONTROL2, addSubTOMUX1, mux2TOmux1, mux3TOmuxLast); --select IS BASED ON ALUCONTROL BIT 2 (ex. 00"0"0)
+
+    shifter: barrelShifter Port map (shamt, aluCONTROL1, aluCONTROL4, A, shifterTOmux4); --aluCONTROL2 controls whether arithmatic or logical shift, aluCONTROL1 controls whether left or right
+
+    MUX4: mux2t1_N Port map (aluCONTROL2, addSubTOMUX1, shifterTOmux4, mux4TOmuxLAST); --select IS BASED ON ALUCONTROL BIT 2 (ex. 00"0"0)
+
+    MUXlast: mux2t1_N Port map (aluCONTROL3, mux3TOmuxLast, mux4TOmuxLAST, WIRE); --select IS BASED ON ALUCONTROL BIT 4 (ex. "0"000)
+
+    ALUOut <= WIRE;
+
+--STILL NEED TO IMPLEMENT ZERO OUT
+
+    org2s: org2_N Port map (WIRE, WIRE, orTONot);
+
+    inverter: onescomp_N Port map (orTONot, WIRE2);
+
+    changefrom32to1: extender_32to1 Port map (WIRE2, Zero);
+
+end Structural;
+

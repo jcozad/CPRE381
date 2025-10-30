@@ -1,0 +1,247 @@
+QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+Start time: 19:48:16 on Oct 29,2025
+vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd internal/testpy/tb.vhd proj/src/extender_32to1.vhd proj/src/RISCV_Processor.vhd proj/src/tb_dmem.vhd proj/src/ALU.vhd proj/src/mux2t1_N.vhd proj/src/invg.vhd proj/src/andg2_N.vhd proj/src/tb_MySecondRISCVDatapath.vhd proj/src/N_bit_Register.vhd proj/src/Fetch_Logic.vhd proj/src/tb_ALU.vhd proj/src/xorg2.vhd proj/src/MySecondRISCVDatapath.vhd proj/src/Adder_Subtractor.vhd proj/src/tb_extender_12t32.vhd proj/src/xorg2_N.vhd proj/src/org2_N.vhd proj/src/tb_barrelShifter.vhd proj/src/add_sub_slt.vhd proj/src/bit32_32_1Mux.vhd proj/src/onescomp_N.vhd proj/src/Control_Logic.vhd proj/src/mem.vhd proj/src/DF_5to32_Decoder.vhd proj/src/mux2t1_STR.vhd proj/src/extender_1to32.vhd proj/src/tb_RISCVSingleCycleProcessor.vhd proj/src/extender_12t32.vhd proj/src/Adder_STRUC.vhd proj/src/andg2.vhd proj/src/tb_MyFirstRISCVDatapath.vhd proj/src/N_bit_Ripple_Adder_STRUC.vhd proj/src/RISCV_types.vhd proj/src/Register_File.vhd proj/src/or_nor.vhd proj/src/MyFirstRISCVDatapath.vhd proj/src/mux2t1.vhd proj/src/org2.vhd proj/src/barrelShifter.vhd proj/src/dffg.vhd proj/src/and_xor.vhd proj/src/tb_Control_Logic.vhd proj/src/tb_Fetch_Logic.vhd proj/src/tb_Adder_Subtractor.vhd proj/src/mux2t1_DATA.vhd proj/src/Mux/tb_mux2t1_DATA.vhd proj/src/Mux/tb_mux2t1_N.vhd proj/src/Mux/tb_mux2t1_STR.vhd proj/src/Adder/N_bit_Ripple_Adder_STRUC.vhd proj/src/Adder/andg2.vhd proj/src/Adder/Adder.vhd proj/src/Adder/tb_N_bit_Ripple_Adder_STRUC.vhd proj/src/Adder/Adder_STRUC.vhd proj/src/Adder/org2.vhd proj/src/Adder/xorg2.vhd proj/src/TPU/BehavioralVHDL_TEMPLATE.vhd proj/src/TPU/Multiplier.vhd proj/src/TPU/Reg.vhd proj/src/TPU/tb_TPU_MV_Element.vhd proj/src/TPU/TPU_MV_Element.vhd proj/src/TPU/Adder.vhd proj/src/TPU/RegLd.vhd proj/src/OnesComp/tb_onescomp_N.vhd proj/src/OnesComp/onescomp_N.vhd proj/src/OnesComp/invg.vhd proj/src/TopLevel/mem.vhd proj/src/TopLevel/Control_Logic.vhd proj/src/TopLevel/Fetch_Logic.vhd proj/src/TopLevel/RISCV_Processor.vhd proj/src/AddSub/org2.vhd proj/src/AddSub/xorg2.vhd proj/src/AddSub/tb_Adder_Subtractor.vhd proj/src/AddSub/mux2t1.vhd proj/src/AddSub/tb_mux2t1_N.vhd proj/src/AddSub/andg2.vhd proj/src/AddSub/invg.vhd proj/src/AddSub/mux2t1_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package RISCV_types
+-- Compiling package body RISCV_types
+-- Loading package RISCV_types
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+-- Compiling entity extender_32to1
+-- Compiling architecture dataflow of extender_32to1
+-- Loading package RISCV_types
+** Warning: proj/src/RISCV_Processor.vhd(24): (vcom-1615) Existing entity 'RISCV_Processor' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(24) will be overwritten.
+-- Compiling entity RISCV_Processor
+** Warning: proj/src/RISCV_Processor.vhd(36): (vcom-1615) Existing architecture 'RISCV_Processor(structure)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(36) will be overwritten.
+-- Compiling architecture structure of RISCV_Processor
+-- Compiling entity tb_dmem
+-- Compiling architecture mixed of tb_dmem
+-- Compiling entity ALU
+-- Compiling architecture Structural of ALU
+** Warning: proj/src/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/mux2t1_N.vhd(21) will be overwritten.
+-- Compiling entity mux2t1_N
+** Warning: proj/src/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/mux2t1_N.vhd(30) will be overwritten.
+-- Compiling architecture structural of mux2t1_N
+** Warning: proj/src/invg.vhd(23): (vcom-1615) Existing entity 'invg' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/invg.vhd(23) will be overwritten.
+-- Compiling entity invg
+** Warning: proj/src/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/invg.vhd(30) will be overwritten.
+-- Compiling architecture dataflow of invg
+-- Compiling entity andg2_N
+-- Compiling architecture structural of andg2_N
+-- Compiling entity tb_MySecondRISCVDatapath
+-- Compiling architecture mixed of tb_MySecondRISCVDatapath
+-- Compiling entity N_bit_Register
+-- Compiling architecture Structural of N_bit_Register
+** Warning: proj/src/Fetch_Logic.vhd(6): (vcom-1615) Existing entity 'Fetch_Logic' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TopLevel/Fetch_Logic.vhd(6) will be overwritten.
+-- Compiling entity Fetch_Logic
+** Warning: proj/src/Fetch_Logic.vhd(14): (vcom-1615) Existing architecture 'Fetch_Logic(Structural)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TopLevel/Fetch_Logic.vhd(14) will be overwritten.
+-- Compiling architecture Structural of Fetch_Logic
+-- Compiling entity tb_ALU
+-- Compiling architecture mixed of tb_ALU
+** Warning: proj/src/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/xorg2.vhd(23) will be overwritten.
+-- Compiling entity xorg2
+** Warning: proj/src/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/xorg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of xorg2
+-- Loading package NUMERIC_STD
+-- Compiling entity MySecondRISCVDatapath
+-- Compiling architecture Structural of MySecondRISCVDatapath
+-- Compiling entity Adder_Subtractor
+-- Compiling architecture Structural of Adder_Subtractor
+-- Compiling entity tb_extender_12t32
+-- Compiling architecture mixed of tb_extender_12t32
+-- Compiling entity xorg2_N
+-- Compiling architecture structural of xorg2_N
+-- Compiling entity org2_N
+-- Compiling architecture structural of org2_N
+-- Compiling entity tb_barrelShifter
+-- Compiling architecture mixed of tb_barrelShifter
+-- Compiling entity add_sub_slt
+-- Compiling architecture Structural of add_sub_slt
+-- Compiling entity bit32_32_1Mux
+-- Compiling architecture Dataflow of bit32_32_1Mux
+** Warning: proj/src/onescomp_N.vhd(18): (vcom-1615) Existing entity 'onescomp_N' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/OnesComp/onescomp_N.vhd(18) will be overwritten.
+-- Compiling entity onescomp_N
+** Warning: proj/src/onescomp_N.vhd(25): (vcom-1615) Existing architecture 'onescomp_N(structural)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/OnesComp/onescomp_N.vhd(25) will be overwritten.
+-- Compiling architecture structural of onescomp_N
+** Warning: proj/src/Control_Logic.vhd(6): (vcom-1615) Existing entity 'Control_Logic' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TopLevel/Control_Logic.vhd(6) will be overwritten.
+-- Compiling entity Control_Logic
+** Warning: proj/src/Control_Logic.vhd(18): (vcom-1615) Existing architecture 'Control_Logic(Behavioral)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TopLevel/Control_Logic.vhd(16) will be overwritten.
+-- Compiling architecture Behavioral of Control_Logic
+** Warning: proj/src/mem.vhd(8): (vcom-1615) Existing entity 'mem' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TopLevel/mem.vhd(8) will be overwritten.
+-- Compiling entity mem
+** Warning: proj/src/mem.vhd(27): (vcom-1615) Existing architecture 'mem(rtl)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TopLevel/mem.vhd(27) will be overwritten.
+-- Compiling architecture rtl of mem
+-- Compiling entity DF_5to32_Decoder
+-- Compiling architecture Dataflow of DF_5to32_Decoder
+-- Compiling entity mux2t1_STR
+-- Compiling architecture Structural of mux2t1_STR
+-- Compiling entity extender_1to32
+-- Compiling architecture behavioral of extender_1to32
+-- Compiling entity tb_RISCVSingleCycleProcessor
+-- Compiling architecture mixed of tb_RISCVSingleCycleProcessor
+-- Compiling entity extender_12t32
+-- Compiling architecture dataflow of extender_12t32
+** Warning: proj/src/Adder_STRUC.vhd(6): (vcom-1615) Existing entity 'Adder_STRUC' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder/Adder_STRUC.vhd(6) will be overwritten.
+-- Compiling entity Adder_STRUC
+** Warning: proj/src/Adder_STRUC.vhd(16): (vcom-1615) Existing architecture 'Adder_STRUC(Structural)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder/Adder_STRUC.vhd(16) will be overwritten.
+-- Compiling architecture Structural of Adder_STRUC
+** Warning: proj/src/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/andg2.vhd(23) will be overwritten.
+-- Compiling entity andg2
+** Warning: proj/src/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/andg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of andg2
+-- Compiling entity tb_MyFirstRISCVDatapath
+-- Compiling architecture mixed of tb_MyFirstRISCVDatapath
+** Warning: proj/src/N_bit_Ripple_Adder_STRUC.vhd(6): (vcom-1615) Existing entity 'N_bit_Ripple_Adder_STRUC' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder/N_bit_Ripple_Adder_STRUC.vhd(6) will be overwritten.
+-- Compiling entity N_bit_Ripple_Adder_STRUC
+** Warning: proj/src/N_bit_Ripple_Adder_STRUC.vhd(18): (vcom-1615) Existing architecture 'N_bit_Ripple_Adder_STRUC(Structural)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder/N_bit_Ripple_Adder_STRUC.vhd(18) will be overwritten.
+-- Compiling architecture Structural of N_bit_Ripple_Adder_STRUC
+** Warning: proj/src/RISCV_types.vhd(15): (vcom-1615) Existing package 'RISCV_types' at line 18 will be overwritten.
+-- Compiling package RISCV_types
+** Warning: proj/src/RISCV_types.vhd(29): (vcom-1615) Existing package body 'RISCV_types(body)' at line 29 will be overwritten.
+-- Compiling package body RISCV_types
+-- Loading package RISCV_types
+-- Compiling entity Register_File
+-- Compiling architecture Structural of Register_File
+-- Compiling entity or_nor
+-- Compiling architecture Structural of or_nor
+-- Compiling entity MyFirstRISCVDatapath
+-- Compiling architecture Structural of MyFirstRISCVDatapath
+** Warning: proj/src/mux2t1.vhd(6): (vcom-1615) Existing entity 'mux2t1' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/mux2t1.vhd(6) will be overwritten.
+-- Compiling entity mux2t1
+** Warning: proj/src/mux2t1.vhd(13): (vcom-1615) Existing architecture 'mux2t1(Dataflow)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/mux2t1.vhd(13) will be overwritten.
+-- Compiling architecture Dataflow of mux2t1
+** Warning: proj/src/org2.vhd(23): (vcom-1615) Existing entity 'org2' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/org2.vhd(23) will be overwritten.
+-- Compiling entity org2
+** Warning: proj/src/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/org2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of org2
+-- Compiling entity barrelShifter
+-- Compiling architecture behavioral of barrelShifter
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+-- Compiling entity and_xor
+-- Compiling architecture Structural of and_xor
+-- Compiling entity tb_Control_Logic
+-- Compiling architecture mixed of tb_Control_Logic
+-- Compiling entity tb_Fetch_Logic
+-- Compiling architecture mixed of tb_Fetch_Logic
+** Warning: proj/src/tb_Adder_Subtractor.vhd(10): (vcom-1615) Existing entity 'tb_Adder_Subtractor' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/tb_Adder_Subtractor.vhd(10) will be overwritten.
+-- Compiling entity tb_Adder_Subtractor
+** Warning: proj/src/tb_Adder_Subtractor.vhd(15): (vcom-1615) Existing architecture 'tb_Adder_Subtractor(mixed)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/tb_Adder_Subtractor.vhd(15) will be overwritten.
+-- Compiling architecture mixed of tb_Adder_Subtractor
+-- Compiling entity mux2t1_DATA
+-- Compiling architecture Dataflow of mux2t1_DATA
+-- Compiling entity tb_mux2t1_DATA
+-- Compiling architecture mixed of tb_mux2t1_DATA
+** Warning: proj/src/Mux/tb_mux2t1_N.vhd(10): (vcom-1615) Existing entity 'tb_mux2t1_N' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/tb_mux2t1_N.vhd(10) will be overwritten.
+-- Compiling entity tb_mux2t1_N
+** Warning: proj/src/Mux/tb_mux2t1_N.vhd(15): (vcom-1615) Existing architecture 'tb_mux2t1_N(mixed)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/AddSub/tb_mux2t1_N.vhd(15) will be overwritten.
+-- Compiling architecture mixed of tb_mux2t1_N
+-- Compiling entity tb_mux2t1_STR
+-- Compiling architecture mixed of tb_mux2t1_STR
+** Warning: proj/src/Adder/N_bit_Ripple_Adder_STRUC.vhd(6): (vcom-1615) Existing entity 'N_bit_Ripple_Adder_STRUC' at proj/src/N_bit_Ripple_Adder_STRUC.vhd(6) will be overwritten.
+-- Compiling entity N_bit_Ripple_Adder_STRUC
+** Warning: proj/src/Adder/N_bit_Ripple_Adder_STRUC.vhd(18): (vcom-1615) Existing architecture 'N_bit_Ripple_Adder_STRUC(Structural)' at proj/src/N_bit_Ripple_Adder_STRUC.vhd(18) will be overwritten.
+-- Compiling architecture Structural of N_bit_Ripple_Adder_STRUC
+** Warning: proj/src/Adder/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at proj/src/andg2.vhd(23) will be overwritten.
+-- Compiling entity andg2
+** Warning: proj/src/Adder/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at proj/src/andg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of andg2
+** Warning: proj/src/Adder/Adder.vhd(26): (vcom-1615) Existing entity 'Adder' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TPU/Adder.vhd(26) will be overwritten.
+-- Compiling entity Adder
+** Warning: proj/src/Adder/Adder.vhd(39): (vcom-1615) Existing architecture 'Adder(behavior)' at /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/TPU/Adder.vhd(39) will be overwritten.
+-- Compiling architecture behavior of Adder
+-- Compiling entity tb_N_bit_Ripple_Adder_STRUC
+-- Compiling architecture mixed of tb_N_bit_Ripple_Adder_STRUC
+** Warning: proj/src/Adder/Adder_STRUC.vhd(6): (vcom-1615) Existing entity 'Adder_STRUC' at proj/src/Adder_STRUC.vhd(6) will be overwritten.
+-- Compiling entity Adder_STRUC
+** Warning: proj/src/Adder/Adder_STRUC.vhd(16): (vcom-1615) Existing architecture 'Adder_STRUC(Structural)' at proj/src/Adder_STRUC.vhd(16) will be overwritten.
+-- Compiling architecture Structural of Adder_STRUC
+** Warning: proj/src/Adder/org2.vhd(23): (vcom-1615) Existing entity 'org2' at proj/src/org2.vhd(23) will be overwritten.
+-- Compiling entity org2
+** Warning: proj/src/Adder/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at proj/src/org2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of org2
+** Warning: proj/src/Adder/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at proj/src/xorg2.vhd(23) will be overwritten.
+-- Compiling entity xorg2
+** Warning: proj/src/Adder/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at proj/src/xorg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity FullAdder
+-- Compiling architecture Behavioral of FullAdder
+-- Compiling entity Multiplier
+-- Compiling architecture behavior of Multiplier
+-- Compiling entity Reg
+-- Compiling architecture behavior of Reg
+-- Compiling entity tb_TPU_MV_Element
+-- Compiling architecture mixed of tb_TPU_MV_Element
+-- Compiling entity TPU_MV_Element
+-- Compiling architecture structure of TPU_MV_Element
+** Warning: proj/src/TPU/Adder.vhd(26): (vcom-1615) Existing entity 'Adder' at proj/src/Adder/Adder.vhd(26) will be overwritten.
+-- Compiling entity Adder
+** Warning: proj/src/TPU/Adder.vhd(39): (vcom-1615) Existing architecture 'Adder(behavior)' at proj/src/Adder/Adder.vhd(39) will be overwritten.
+-- Compiling architecture behavior of Adder
+-- Compiling entity RegLd
+-- Compiling architecture behavior of RegLd
+-- Compiling entity tb_onescomp_N
+-- Compiling architecture mixed of tb_onescomp_N
+** Warning: proj/src/OnesComp/onescomp_N.vhd(18): (vcom-1615) Existing entity 'onescomp_N' at proj/src/onescomp_N.vhd(18) will be overwritten.
+-- Compiling entity onescomp_N
+** Warning: proj/src/OnesComp/onescomp_N.vhd(25): (vcom-1615) Existing architecture 'onescomp_N(structural)' at proj/src/onescomp_N.vhd(25) will be overwritten.
+-- Compiling architecture structural of onescomp_N
+** Warning: proj/src/OnesComp/invg.vhd(23): (vcom-1615) Existing entity 'invg' at proj/src/invg.vhd(23) will be overwritten.
+-- Compiling entity invg
+** Warning: proj/src/OnesComp/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at proj/src/invg.vhd(30) will be overwritten.
+-- Compiling architecture dataflow of invg
+** Warning: proj/src/TopLevel/mem.vhd(8): (vcom-1615) Existing entity 'mem' at proj/src/mem.vhd(8) will be overwritten.
+-- Compiling entity mem
+** Warning: proj/src/TopLevel/mem.vhd(27): (vcom-1615) Existing architecture 'mem(rtl)' at proj/src/mem.vhd(27) will be overwritten.
+-- Compiling architecture rtl of mem
+** Warning: proj/src/TopLevel/Control_Logic.vhd(6): (vcom-1615) Existing entity 'Control_Logic' at proj/src/Control_Logic.vhd(6) will be overwritten.
+-- Compiling entity Control_Logic
+** Warning: proj/src/TopLevel/Control_Logic.vhd(16): (vcom-1615) Existing architecture 'Control_Logic(Behavioral)' at proj/src/Control_Logic.vhd(18) will be overwritten.
+-- Compiling architecture Behavioral of Control_Logic
+** Warning: proj/src/TopLevel/Fetch_Logic.vhd(6): (vcom-1615) Existing entity 'Fetch_Logic' at proj/src/Fetch_Logic.vhd(6) will be overwritten.
+-- Compiling entity Fetch_Logic
+** Warning: proj/src/TopLevel/Fetch_Logic.vhd(14): (vcom-1615) Existing architecture 'Fetch_Logic(Structural)' at proj/src/Fetch_Logic.vhd(14) will be overwritten.
+-- Compiling architecture Structural of Fetch_Logic
+-- Loading package RISCV_types
+** Warning: proj/src/TopLevel/RISCV_Processor.vhd(24): (vcom-1615) Existing entity 'RISCV_Processor' at proj/src/RISCV_Processor.vhd(24) will be overwritten.
+-- Compiling entity RISCV_Processor
+** Warning: proj/src/TopLevel/RISCV_Processor.vhd(36): (vcom-1615) Existing architecture 'RISCV_Processor(structure)' at proj/src/RISCV_Processor.vhd(36) will be overwritten.
+-- Compiling architecture structure of RISCV_Processor
+** Warning: proj/src/AddSub/org2.vhd(23): (vcom-1615) Existing entity 'org2' at proj/src/Adder/org2.vhd(23) will be overwritten.
+-- Compiling entity org2
+** Warning: proj/src/AddSub/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at proj/src/Adder/org2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of org2
+** Warning: proj/src/AddSub/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at proj/src/Adder/xorg2.vhd(23) will be overwritten.
+-- Compiling entity xorg2
+** Warning: proj/src/AddSub/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at proj/src/Adder/xorg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of xorg2
+** Warning: proj/src/AddSub/tb_Adder_Subtractor.vhd(10): (vcom-1615) Existing entity 'tb_Adder_Subtractor' at proj/src/tb_Adder_Subtractor.vhd(10) will be overwritten.
+-- Compiling entity tb_Adder_Subtractor
+** Warning: proj/src/AddSub/tb_Adder_Subtractor.vhd(15): (vcom-1615) Existing architecture 'tb_Adder_Subtractor(mixed)' at proj/src/tb_Adder_Subtractor.vhd(15) will be overwritten.
+-- Compiling architecture mixed of tb_Adder_Subtractor
+** Warning: proj/src/AddSub/mux2t1.vhd(6): (vcom-1615) Existing entity 'mux2t1' at proj/src/mux2t1.vhd(6) will be overwritten.
+-- Compiling entity mux2t1
+** Warning: proj/src/AddSub/mux2t1.vhd(13): (vcom-1615) Existing architecture 'mux2t1(Dataflow)' at proj/src/mux2t1.vhd(13) will be overwritten.
+-- Compiling architecture Dataflow of mux2t1
+** Warning: proj/src/AddSub/tb_mux2t1_N.vhd(10): (vcom-1615) Existing entity 'tb_mux2t1_N' at proj/src/Mux/tb_mux2t1_N.vhd(10) will be overwritten.
+-- Compiling entity tb_mux2t1_N
+** Warning: proj/src/AddSub/tb_mux2t1_N.vhd(15): (vcom-1615) Existing architecture 'tb_mux2t1_N(mixed)' at proj/src/Mux/tb_mux2t1_N.vhd(15) will be overwritten.
+-- Compiling architecture mixed of tb_mux2t1_N
+** Warning: proj/src/AddSub/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at proj/src/Adder/andg2.vhd(23) will be overwritten.
+-- Compiling entity andg2
+** Warning: proj/src/AddSub/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at proj/src/Adder/andg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of andg2
+** Warning: proj/src/AddSub/invg.vhd(23): (vcom-1615) Existing entity 'invg' at proj/src/OnesComp/invg.vhd(23) will be overwritten.
+-- Compiling entity invg
+** Warning: proj/src/AddSub/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at proj/src/OnesComp/invg.vhd(30) will be overwritten.
+-- Compiling architecture dataflow of invg
+** Warning: proj/src/AddSub/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at proj/src/mux2t1_N.vhd(21) will be overwritten.
+-- Compiling entity mux2t1_N
+** Warning: proj/src/AddSub/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at proj/src/mux2t1_N.vhd(30) will be overwritten.
+-- Compiling architecture structural of mux2t1_N
+End time: 19:48:17 on Oct 29,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 74

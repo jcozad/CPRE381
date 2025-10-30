@@ -200,7 +200,7 @@ begin
     s_Inst_19to15(4) <= s_Inst(19);
 
   mux2T1_4b: mux2t1_N
-    generic map(5 => N)
+    generic map(N => 5)
     port map(i_S  => Wire_RegDst,
              i_D0 => s_Inst_24to20,
              i_D1 => s_Inst_11to7,
@@ -213,7 +213,7 @@ begin
     --extender: extender_12t32 Port map (s_Inst, Wire_ImmType, extenderTOMUX); --TBD
 
   mux2T1_32b: mux2t1_N
-    generic map(32 => N)
+    generic map(N => 32)
     port map(i_S  => Wire_ALUSrc,
              i_D0 => register2TOALU,
              i_D1 => extenderTOMUX,
@@ -226,7 +226,7 @@ begin
     s_DMemWr <= Wire_MemWrite;
 
   mux2T1_32b_2: mux2t1_N
-    generic map(32 => N)
+    generic map(N => 32)
     port map(i_S  => Wire_ResultSrc,
              i_D0 => s_DMemAddr,
              i_D1 => s_DMemOut,

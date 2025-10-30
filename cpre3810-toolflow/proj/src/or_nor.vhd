@@ -1,0 +1,48 @@
+--Structural modeling describes the interconnection of components or entities (like gates, --modules, or other components). It’s like connecting pieces of hardware together. You --instantiate entities and wire them together to form a larger system.
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity or_nor is
+    Port ( A : in std_logic_vector(31 downto 0);
+           B : in std_logic_vector(31 downto 0);
+           orORNor : in STD_LOGIC;
+           Sum : out std_logic_vector(31 downto 0));
+end or_nor;
+
+architecture Structural of or_nor is
+
+    component onescomp_N
+  generic(N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
+  port(i_Input         : in std_logic_vector(N-1 downto 0);
+       o_O          : out std_logic_vector(N-1 downto 0));
+    end component;
+
+    component org2_N
+  generic(N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
+  port(i_A          : in std_logic_vector(N-1 downto 0);
+       i_B          : in std_logic_vector(N-1 downto 0);
+       o_F          : out std_logic_vector(N-1 downto 0));
+    end component;
+
+    component mux2t1_N
+  generic(N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
+  port(i_S          : in std_logic;
+       i_D0         : in std_logic_vector(N-1 downto 0);
+       i_D1         : in std_logic_vector(N-1 downto 0);
+       o_O          : out std_logic_vector(N-1 downto 0));
+    end component;
+
+    signal orOUt1 : std_logic_vector(31 downto 0);
+    signal orOUt2 : std_logic_vector(31 downto 0);
+    signal inverted : std_logic_vector(31 downto 0);
+
+begin
+    --
+    org2_1: org2_N Port map (A, B, orOUt1);
+    org2_2: org2_N Port map (A, B, orOUt2);
+    inverter: onescomp_N Port map (orOUt2, inverted);
+    muxOut: mux2t1_N Port map (orORNor, orOUt1, inverted, Sum);
+
+end Structural;
+

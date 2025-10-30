@@ -1,0 +1,1884 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src
+Eadd_sub_slt
+Z1 w1761165406
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+Z4 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/add_sub_slt.vhd
+Z5 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/add_sub_slt.vhd
+l0
+L6 1
+V]R=B8aEjCRAHUb[8KE`4K1
+!s100 :]_E2GU@G[bRmY?joM1@;0
+Z6 OL;C;2025.1_2;82
+32
+Z7 !s110 1761784934
+!i10b 1
+Z8 !s108 1761784933.000000
+Z9 !s90 -reportprogress|300|-work|work|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder_STRUC.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder_Subtractor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/ALU.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/and_xor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/andg2.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/andg2_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/barrelShifter.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/bit32_32_1Mux.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Control_Logic.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/DF_5to32_Decoder.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/dffg.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_1to32.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_12t32.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_32to1.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Fetch_Logic.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/invg.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mem.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_DATA.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_STR.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/MyFirstRISCVDatapath.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/MySecondRISCVDatapath.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/N_bit_Register.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/N_bit_Ripple_Adder_STRUC.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/onescomp_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/or_nor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/org2.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/org2_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Register_File.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/RISCV_Processor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/RISCV_types.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Adder_Subtractor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_ALU.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_barrelShifter.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Control_Logic.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_dmem.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_extender_12t32.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Fetch_Logic.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_MyFirstRISCVDatapath.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_MySecondRISCVDatapath.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_RISCVSingleCycleProcessor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/xorg2_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/xorg2.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/add_sub_slt.vhd|
+Z10 !s107 /home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/add_sub_slt.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/xorg2.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/xorg2_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_RISCVSingleCycleProcessor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_MySecondRISCVDatapath.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_MyFirstRISCVDatapath.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Fetch_Logic.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_extender_12t32.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_dmem.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Control_Logic.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_barrelShifter.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_ALU.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Adder_Subtractor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/RISCV_types.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/RISCV_Processor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Register_File.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/org2_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/org2.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/or_nor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/onescomp_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/N_bit_Ripple_Adder_STRUC.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/N_bit_Register.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/MySecondRISCVDatapath.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/MyFirstRISCVDatapath.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_STR.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_DATA.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mem.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/invg.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Fetch_Logic.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_32to1.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_12t32.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_1to32.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/dffg.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/DF_5to32_Decoder.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Control_Logic.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/bit32_32_1Mux.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/barrelShifter.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/andg2_N.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/andg2.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/and_xor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/ALU.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder_Subtractor.vhd|/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder_STRUC.vhd|
+!i113 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Astructural
+R2
+R3
+Z13 DEx4 work 11 add_sub_slt 0 22 ]R=B8aEjCRAHUb[8KE`4K1
+!i122 3
+l44
+Z14 L15 36
+Z15 V8HWdz83K]1j>IITA^Z6;V1
+Z16 !s100 I;82W4MEX5FnY;_9VzQQB1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eadder_struc
+Z17 w1757367866
+R2
+R3
+!i122 3
+R0
+Z18 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder_STRUC.vhd
+Z19 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder_STRUC.vhd
+l0
+L6 1
+V9;b]LI4CQEkNoa0KRU:j?3
+!s100 AIMLVALi97_8[C[@BGb4Y3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z20 DEx4 work 11 adder_struc 0 22 9;b]LI4CQEkNoa0KRU:j?3
+!i122 3
+l38
+Z21 L16 35
+Z22 V1K88f7fW>BfKDBZkJ8;iJ1
+Z23 !s100 :onKhcozRf:?eP:nP3zL91
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eadder_subtractor
+Z24 w1757454550
+R2
+R3
+!i122 3
+R0
+Z25 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder_Subtractor.vhd
+Z26 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Adder_Subtractor.vhd
+l0
+L6 1
+VARCC1FjAD3>b<3Qg1NzQG1
+!s100 938mM@ifABRj=NDbd<?8P1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z27 DEx4 work 16 adder_subtractor 0 22 ARCC1FjAD3>b<3Qg1NzQG1
+!i122 3
+l47
+Z28 L16 40
+Z29 VHbdMHVIe020?8[biMI_F22
+Z30 !s100 ]H<lzQCU;1a5<^jl0:0CO2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ealu
+Z31 w1761174215
+R2
+R3
+!i122 3
+R0
+Z32 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/ALU.vhd
+Z33 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/ALU.vhd
+l0
+L6 1
+VUA05=iXg1QT0ZhADMeeL]1
+!s100 odK_Do985S<;a6[TcWdn_3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z34 DEx4 work 3 alu 0 22 UA05=iXg1QT0ZhADMeeL]1
+!i122 3
+l97
+Z35 L15 122
+Z36 VZl]aL@zz4f8FVDW?kdd0I1
+Z37 !s100 ;Zb_jUnK?@KT2e@:kACFg1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eand_xor
+Z38 w1761166465
+R2
+R3
+!i122 3
+R0
+Z39 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/and_xor.vhd
+Z40 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/and_xor.vhd
+l0
+L6 1
+Vj7LZmU;FDzJdlHQoJVIV:1
+!s100 0Rn42zD`z@U=41n;TM;Ug3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z41 DEx4 work 7 and_xor 0 22 j7LZmU;FDzJdlHQoJVIV:1
+!i122 3
+l41
+Z42 L13 35
+Z43 V:]U^ZKNM<nE[:Q[P>YG>U0
+Z44 !s100 U^bV_MeNM?>DnFNcoi^K43
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eandg2
+Z45 w1756241934
+R2
+R3
+!i122 3
+R0
+Z46 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/andg2.vhd
+Z47 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/andg2.vhd
+l0
+Z48 L23 1
+VQ@<<<@nlJ=eiIl4BJDFzW2
+!s100 YT?bGzEmcFo:DlnoC^B4_0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z49 DEx4 work 5 andg2 0 22 Q@<<<@nlJ=eiIl4BJDFzW2
+!i122 3
+l32
+Z50 L31 6
+Z51 VJVOzCk?IH:iJ5bCRU`CK13
+Z52 !s100 I`@Z@UBObS]<7m8bPgKUS1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eandg2_n
+Z53 w1760726311
+R2
+R3
+!i122 3
+R0
+Z54 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/andg2_N.vhd
+Z55 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/andg2_N.vhd
+l0
+R48
+V8^zK]i@k1H<f0IUQJD]h=1
+!s100 C18QUiL2ASRJ7n>nOBk443
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z56 DEx4 work 7 andg2_n 0 22 8^zK]i@k1H<f0IUQJD]h=1
+!i122 3
+l40
+Z57 L32 18
+Z58 Vn2^347?]jH3a;Fm6kgRPE1
+Z59 !s100 4NTFRz_mRUQ>gX82KSFAo0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ebarrelshifter
+Z60 w1761152199
+Z61 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 3
+R0
+Z62 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/barrelShifter.vhd
+Z63 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/barrelShifter.vhd
+l0
+L5 1
+VEA=Y[1fOChJYHghoeYM5Y3
+!s100 Izl0e3TGbJHHjQ66V]0>j0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Abehavioral
+R61
+R2
+R3
+Z64 DEx4 work 13 barrelshifter 0 22 EA=Y[1fOChJYHghoeYM5Y3
+!i122 3
+l16
+Z65 L15 26
+Z66 VWDGR<Shz6c7V7ER:EaNQE3
+Z67 !s100 ;;`L[1jUn<?D9knI0QOC;2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ebit32_32_1mux
+Z68 w1739912155
+R2
+R3
+!i122 3
+R0
+Z69 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/bit32_32_1Mux.vhd
+Z70 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/bit32_32_1Mux.vhd
+l0
+L7 1
+V1HdJg^TVFzZLWA?YG_1N61
+!s100 X@lgIF5imZ2Z1?04ZQ=a>0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z71 DEx4 work 13 bit32_32_1mux 0 22 1HdJg^TVFzZLWA?YG_1N61
+!i122 3
+l47
+Z72 L46 39
+Z73 V@m8YhcOaVZz:B<BVZ`8W>1
+Z74 !s100 b38fl_aCQW>;D@K:REcR22
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Econtrol_logic
+Z75 w1761781774
+R2
+R3
+!i122 3
+R0
+Z76 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Control_Logic.vhd
+Z77 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Control_Logic.vhd
+l0
+L6 1
+V>D_@f];[GKCkW30MQZYAa2
+!s100 QIJT[^QjQSO0c1^nMCO^[2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+Z78 DEx4 work 13 control_logic 0 22 >D_@f];[GKCkW30MQZYAa2
+!i122 3
+l19
+Z79 L18 31
+Z80 VOg42;C[cFO]4_SM:O`dhl3
+Z81 !s100 TM0D]Ab_2dEaUdIz_DJkJ3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Edf_5to32_decoder
+Z82 w1759532335
+R2
+R3
+!i122 3
+R0
+Z83 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/DF_5to32_Decoder.vhd
+Z84 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/DF_5to32_Decoder.vhd
+l0
+L4 1
+VkYzWV@J6EE1]IgSRPa?MD2
+!s100 L9@069Hj^L9?LoJ4b0O[B3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z85 DEx4 work 16 df_5to32_decoder 0 22 kYzWV@J6EE1]IgSRPa?MD2
+!i122 3
+l12
+Z86 L10 40
+Z87 V_hVFdmR7aeVXna:DKc4lX0
+Z88 !s100 b;]z5mLY[8@MVP5AfAd7S2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Edffg
+Z89 w1756242071
+R2
+R3
+!i122 3
+R0
+Z90 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/dffg.vhd
+Z91 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/dffg.vhd
+l0
+R48
+V<]b9Vm3e`GAN;Cnj:57L>2
+!s100 T4gcXQGMCgKJbn8XhBM;b0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R2
+R3
+Z92 DEx4 work 4 dffg 0 22 <]b9Vm3e`GAN;Cnj:57L>2
+!i122 3
+l37
+Z93 L33 29
+Z94 V`CHXPZKVEek`3gFWL_zFm2
+Z95 !s100 iOdlTUid@@]UimFK_53^C1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eextender_12t32
+Z96 w1761778067
+R2
+R3
+!i122 3
+R0
+Z97 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_12t32.vhd
+Z98 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_12t32.vhd
+l0
+L7 1
+VN0N[K6GFf@^H5dDP>ILSh1
+!s100 EjN2olmW_6?I1SFK_OgmP0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z99 DEx4 work 14 extender_12t32 0 22 N0N[K6GFf@^H5dDP>ILSh1
+!i122 3
+l16
+Z100 L15 9
+Z101 V=WSP9?4`K<MlL6DO1D]Ng3
+Z102 !s100 9HIl[XH5jcD5=1AE]MbWc0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eextender_1to32
+Z103 w1761244358
+R2
+R3
+!i122 3
+R0
+Z104 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_1to32.vhd
+Z105 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_1to32.vhd
+l0
+L4 1
+V4>75jMPPUZd__7_eE3e>N1
+!s100 SPaBF;Kj^e`B7Cna7oWEn2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+Z106 DEx4 work 14 extender_1to32 0 22 4>75jMPPUZd__7_eE3e>N1
+!i122 3
+l12
+Z107 L11 8
+Z108 V3BOZLo`g7FLOTXd^89>Tb3
+Z109 !s100 j<iZ0Y_;TWNFhi0V3Oa>02
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eextender_32to1
+Z110 w1761169160
+R2
+R3
+!i122 3
+R0
+Z111 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_32to1.vhd
+Z112 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/extender_32to1.vhd
+l0
+L4 1
+Vn0J0]4QbY9E4F5d07QF^`3
+!s100 ]Gj35k^R`D=SHPCA>m`DQ1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z113 DEx4 work 14 extender_32to1 0 22 n0J0]4QbY9E4F5d07QF^`3
+!i122 3
+l12
+Z114 L11 6
+Z115 VjMK<AI3IZFi_oE^Ui0ANT0
+Z116 !s100 ^CjdjQAO2Al5Ok:LjGV;R0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Efetch_logic
+Z117 w1760385824
+R2
+R3
+!i122 3
+R0
+Z118 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Fetch_Logic.vhd
+Z119 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Fetch_Logic.vhd
+l0
+L6 1
+VHEB9[_8`N0_QQP39oH:fl2
+!s100 jZWTo5YobU@KADJZlDLGO0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z120 DEx4 work 11 fetch_logic 0 22 HEB9[_8`N0_QQP39oH:fl2
+!i122 3
+l50
+Z121 L14 48
+Z122 V6n;jCdEUMk5PUI@d91KL=1
+Z123 !s100 GYT07djD9zX0PG8S2K2:W0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Einvg
+R45
+R2
+R3
+!i122 3
+R0
+Z124 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/invg.vhd
+Z125 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/invg.vhd
+l0
+R48
+VQ?6hb9ePk@>kZZ9k]hNSO3
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z126 DEx4 work 4 invg 0 22 Q?6hb9ePk@>kZZ9k]hNSO3
+!i122 3
+l31
+Z127 L30 6
+Z128 Vch>li:oKYZkCO5]GamViK1
+Z129 !s100 bk7I76o8e1LURdoZEQb8H0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Emem
+Z130 w1759714925
+R61
+R2
+R3
+!i122 3
+R0
+Z131 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mem.vhd
+Z132 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mem.vhd
+l0
+L8 1
+Vl8<PCiN;cU;BN3M[A<;IE3
+!s100 fRlcaiTJZJ1H;nZh;8=LI3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Artl
+R61
+R2
+R3
+Z133 DEx4 work 3 mem 0 22 l8<PCiN;cU;BN3M[A<;IE3
+!i122 3
+l37
+Z134 L27 24
+Z135 V`6^NbPhKNmSBg:`:Un8;g3
+Z136 !s100 OI8_3><BhDkT3l3n8`OXd3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Emux2t1
+Z137 w1757364278
+R2
+R3
+!i122 3
+R0
+Z138 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1.vhd
+Z139 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1.vhd
+l0
+L6 1
+Vki_9NFb<XV]l0LGhdIRjz2
+!s100 ]L40A<ngZgzSAHhQ7iz>z0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z140 DEx4 work 6 mux2t1 0 22 ki_9NFb<XV]l0LGhdIRjz2
+!i122 3
+l14
+Z141 L13 7
+Z142 VPUoLo0Pe6BN>?1W5b4F=I1
+Z143 !s100 o6oG@]=ZE6ZZi2>H6djh13
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Emux2t1_data
+Z144 w1757969240
+R2
+R3
+!i122 3
+R0
+Z145 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_DATA.vhd
+Z146 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_DATA.vhd
+l0
+L6 1
+V;8hPejR3g0BMcH<N[OSE00
+!s100 IKDLmDj><817a0XO]XOmP1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z147 DEx4 work 11 mux2t1_data 0 22 ;8hPejR3g0BMcH<N[OSE00
+!i122 3
+l14
+R141
+Z148 V::0GdazjN@LLmRJg9`>bl2
+Z149 !s100 TiXOS74[@ARnGH>UP<B5Q1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Emux2t1_n
+Z150 w1758728121
+R2
+R3
+!i122 3
+R0
+Z151 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_N.vhd
+Z152 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_N.vhd
+l0
+L21 1
+VFY=Tc@WO1TP4Z42>dBMei3
+!s100 BKZeKCAB2i6lge3>7TA3d3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z153 DEx4 work 8 mux2t1_n 0 22 FY=Tc@WO1TP4Z42>dBMei3
+!i122 3
+l39
+Z154 L30 21
+Z155 V<E5VGgLO>Q9]R@FeMzmbM1
+Z156 !s100 ^A6Y>b?nAl7RRC?J9@lDN2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Emux2t1_str
+Z157 w1757355633
+R2
+R3
+!i122 3
+R0
+Z158 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_STR.vhd
+Z159 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/mux2t1_STR.vhd
+l0
+L8 1
+VHJAobaTf_dZaP50M2;@XM1
+!s100 FlnaXF7a6OEd>0mzAc`1Q1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z160 DEx4 work 10 mux2t1_str 0 22 HJAobaTf_dZaP50M2;@XM1
+!i122 3
+l36
+Z161 L15 32
+Z162 VYQALbDN@<ZIcbjV]<mPaC0
+Z163 !s100 a6BXY6c_IDPVWWY7G^aSS1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Emyfirstriscvdatapath
+Z164 w1758754669
+R2
+R3
+!i122 3
+R0
+Z165 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/MyFirstRISCVDatapath.vhd
+Z166 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/MyFirstRISCVDatapath.vhd
+l0
+L6 1
+V4H9MV6f9gm]^7jgmm>If>0
+!s100 ;0fCaDZFg1nNB_]hD2DVA0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z167 DEx4 work 20 myfirstriscvdatapath 0 22 4H9MV6f9gm]^7jgmm>If>0
+!i122 3
+l56
+Z168 L20 48
+Z169 VdLL`Jlzd4[I2eS1nHeUMK0
+Z170 !s100 XS5jI<4c`V?5?@EI[]0MJ1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Emysecondriscvdatapath
+Z171 w1759715038
+R61
+R2
+R3
+!i122 3
+R0
+Z172 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/MySecondRISCVDatapath.vhd
+Z173 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/MySecondRISCVDatapath.vhd
+l0
+L5 1
+V091GP?>XEM64>kzZDSO]f0
+!s100 B05WJeTkNhTGB?j@ki3Rj1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R61
+R2
+R3
+Z174 DEx4 work 21 mysecondriscvdatapath 0 22 091GP?>XEM64>kzZDSO]f0
+!i122 3
+l93
+Z175 L25 91
+Z176 V7YgfEDnU;[5ljb=_0QAS?1
+Z177 !s100 C1N<d;RFmYl3GMSP@XDHd2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+En_bit_register
+Z178 w1757523024
+R2
+R3
+!i122 3
+R0
+Z179 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/N_bit_Register.vhd
+Z180 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/N_bit_Register.vhd
+l0
+L6 1
+V[3cNc[=8RAcV2Va^9Z`U_3
+!s100 ?_=^c4LgUEzQU@^Z3>Bd73
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z181 DEx4 work 14 n_bit_register 0 22 [3cNc[=8RAcV2Va^9Z`U_3
+!i122 3
+l28
+Z182 L16 20
+Z183 V3M9gRWkBk`2cH9gcaQ:6]3
+Z184 !s100 D[QPd5>LknZIK<WAH_4M_1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+En_bit_ripple_adder_struc
+Z185 w1757372249
+R2
+R3
+!i122 3
+R0
+Z186 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/N_bit_Ripple_Adder_STRUC.vhd
+Z187 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/N_bit_Ripple_Adder_STRUC.vhd
+l0
+L6 1
+VFCDeoYGB^IJQ^9PnDW4V`2
+!s100 De@dZ1>_8jHcYB?<B9H;Z2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z188 DEx4 work 24 n_bit_ripple_adder_struc 0 22 FCDeoYGB^IJQ^9PnDW4V`2
+!i122 3
+l30
+Z189 L18 38
+Z190 VFnId4zQDaPbjPVi1DLb;10
+Z191 !s100 K:@`dH=PPWNY8a7g3oE1=0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eonescomp_n
+Z192 w1757366096
+R2
+R3
+!i122 3
+R0
+Z193 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/onescomp_N.vhd
+Z194 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/onescomp_N.vhd
+l0
+L18 1
+V;@9MFbh8lbgIYfn@T8OPg0
+!s100 QkR1VBzXlBdW5XOT=g0`:0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z195 DEx4 work 10 onescomp_n 0 22 ;@9MFbh8lbgIYfn@T8OPg0
+!i122 3
+l32
+Z196 L25 17
+Z197 VYa86[XNFUa>3`IA4Q8R=;0
+Z198 !s100 _HJV2giJ54dV2b8]od82Q2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eor_nor
+Z199 w1761167016
+R2
+R3
+!i122 3
+R0
+Z200 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/or_nor.vhd
+Z201 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/or_nor.vhd
+l0
+L6 1
+V7dX^BlC?b:>GaEaj7=I@81
+!s100 4L1LZ_l[LlZQIBck8i9A82
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z202 DEx4 work 6 or_nor 0 22 7dX^BlC?b:>GaEaj7=I@81
+!i122 3
+l40
+R42
+Z203 V?B>=<A`;5F4NEJcY?QLj[1
+Z204 !s100 MI?LA2562bdT3zQ1f@jA22
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eorg2
+R45
+R2
+R3
+!i122 3
+R0
+Z205 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/org2.vhd
+Z206 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/org2.vhd
+l0
+R48
+V[C`FCj=kL0CTBYLlbjJzD3
+!s100 bGQ1F9eW^Q17OoL9h4g7z2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z207 DEx4 work 4 org2 0 22 [C`FCj=kL0CTBYLlbjJzD3
+!i122 3
+l32
+R50
+Z208 VNHGn>Kh:]BEh4o]ImiG<d3
+Z209 !s100 h5_AzR3TdRA0a_K=dQ>mI2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eorg2_n
+Z210 w1760725646
+R2
+R3
+!i122 3
+R0
+Z211 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/org2_N.vhd
+Z212 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/org2_N.vhd
+l0
+R48
+VIm?zS<NMc23U<4D1>hnVg2
+!s100 KGBRRBWDBOTMMF5E>]Q7m2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z213 DEx4 work 6 org2_n 0 22 Im?zS<NMc23U<4D1>hnVg2
+!i122 3
+l40
+R57
+Z214 VXE^=FXBQYj`5QG?=bX=ho1
+Z215 !s100 <Jf??Bk91KL@FRR2:maW02
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eregister_file
+Z216 w1758585135
+R2
+R3
+!i122 3
+R0
+Z217 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Register_File.vhd
+Z218 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/Register_File.vhd
+l0
+L6 1
+VzWm67_0:l81mZJUoD2NIo3
+!s100 HSY]bkgKhKgH[nMQ3L95^1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z219 DEx4 work 13 register_file 0 22 zWm67_0:l81mZJUoD2NIo3
+!i122 3
+l82
+Z220 L19 153
+Z221 Vo^fa:9:YM<Ob@PD7Rncc_1
+Z222 !s100 aQ?C4BNebkANmX0JhI4AI0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eriscv_processor
+Z223 w1761784377
+Z224 DPx4 work 11 riscv_types 0 22 9ZRo?^TI;=18lLemTcVCG1
+R2
+R3
+!i122 3
+R0
+Z225 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/RISCV_Processor.vhd
+Z226 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/RISCV_Processor.vhd
+l0
+L24 1
+Va1L:ea62H>W2?:@27_KgG0
+!s100 2QlZ7gG0Tc=VN8QQV?oB71
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructure
+R224
+R2
+R3
+Z227 DEx4 work 15 riscv_processor 0 22 a1L:ea62H>W2?:@27_KgG0
+!i122 3
+l155
+Z228 L36 215
+Z229 Vll]l1<l0EX7iZz5l:4GAL3
+Z230 !s100 OKXHz<PG[bI6TI4AP<R[z1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Priscv_types
+R2
+R3
+!i122 3
+Z231 w1760543630
+R0
+Z232 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/RISCV_types.vhd
+Z233 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/RISCV_types.vhd
+l0
+L15 13
+V9ZRo?^TI;=18lLemTcVCG1
+!s100 f4mVG5Ck>Fj94h>zoa_CF2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Bbody
+R224
+R2
+R3
+!i122 3
+l0
+Z234 L29 3
+Z235 VX^SkeN8>@VaDoQ^VIV[_T3
+Z236 !s100 GDR?4:nAbmIiboG0gc@;N2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_adder_subtractor
+Z237 w1757457068
+Z238 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R2
+R3
+!i122 3
+R0
+Z239 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Adder_Subtractor.vhd
+Z240 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Adder_Subtractor.vhd
+l0
+Z241 L10 1
+V8Z;Q9V:HjODmf^e?=Mhb@2
+!s100 BN787V@IiW=SSSWBf6kzG2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z242 DEx4 work 19 tb_adder_subtractor 0 22 8Z;Q9V:HjODmf^e?=Mhb@2
+!i122 3
+l45
+Z243 L15 138
+Z244 Vd=`XJDeYMn?_KQ`zl4E]d1
+Z245 !s100 KRZM?H_HCL]Vh9i_62Y?J0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_alu
+Z246 w1761244565
+R238
+R2
+R3
+!i122 3
+R0
+Z247 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_ALU.vhd
+Z248 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_ALU.vhd
+l0
+R241
+Vf72>fKdD>=;Od>f3lCch30
+!s100 hg]H4]_7^V9YV8PF^[K`W1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z249 DEx4 work 6 tb_alu 0 22 f72>fKdD>=;Od>f3lCch30
+!i122 3
+l44
+Z250 L15 180
+Z251 VjSh@6??8^:29YcfZA:gFi3
+Z252 !s100 HjA>kAODEn^X1D>Mm@<:D0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_barrelshifter
+Z253 w1761150717
+R238
+R2
+R3
+!i122 3
+R0
+Z254 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_barrelShifter.vhd
+Z255 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_barrelShifter.vhd
+l0
+R241
+VEY;Um@@W6;zmWkLfURfVN2
+!s100 47NKnh4YfG^J1i8OCi39]3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z256 DEx4 work 16 tb_barrelshifter 0 22 EY;Um@@W6;zmWkLfURfVN2
+!i122 3
+l42
+Z257 L15 166
+Z258 ViNBIMXbS]Ca3<C92Q0lM51
+Z259 !s100 VU018ZIhh]Ofa6X983an]2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_control_logic
+Z260 w1760378141
+R238
+R2
+R3
+!i122 3
+R0
+Z261 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Control_Logic.vhd
+Z262 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Control_Logic.vhd
+l0
+R241
+VFAgHk]H>Me`bmBSOb]RRj3
+!s100 @@V^jF>JeV0:0KHX[DV=E2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z263 DEx4 work 16 tb_control_logic 0 22 FAgHk]H>Me`bmBSOb]RRj3
+!i122 3
+l47
+Z264 L15 98
+Z265 V=B_JBA5:S9_Ygn?>@QJhK0
+Z266 !s100 o7X`M2IiQXCeP[99IF_Db0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_dmem
+Z267 w1759449735
+R238
+R2
+R3
+!i122 3
+R0
+Z268 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_dmem.vhd
+Z269 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_dmem.vhd
+l0
+R241
+VC[Vo?z<8WJSIWY^CJoO]J0
+!s100 EiYZzFP9ma5e0GZSN?PoM3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z270 DEx4 work 7 tb_dmem 0 22 C[Vo?z<8WJSIWY^CJoO]J0
+!i122 3
+l51
+Z271 L16 238
+Z272 VTXPMEJSk7T>ZOAQf^oES^2
+Z273 !s100 nmcFm8LiiC``[OBga540Z3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_extender_12t32
+Z274 w1761779249
+R238
+R2
+R3
+!i122 3
+R0
+Z275 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_extender_12t32.vhd
+Z276 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_extender_12t32.vhd
+l0
+R241
+VXFgBWln^RDBf^j1c87AB]0
+!s100 L4QgjefoOJ?b7IkIUzXFB1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z277 DEx4 work 17 tb_extender_12t32 0 22 XFgBWln^RDBf^j1c87AB]0
+!i122 3
+l44
+Z278 L15 116
+Z279 V>9a[c806hOcc1ihXA2XPC3
+Z280 !s100 Pjg2zJ1z@ej_BamV@_o6J0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_fetch_logic
+Z281 w1760386009
+R238
+R2
+R3
+!i122 3
+R0
+Z282 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Fetch_Logic.vhd
+Z283 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_Fetch_Logic.vhd
+l0
+R241
+V@O7b;<2:8m`M3i^>]zK020
+!s100 eR5lz2GHkQ>bXAoSB7;E92
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z284 DEx4 work 14 tb_fetch_logic 0 22 @O7b;<2:8m`M3i^>]zK020
+!i122 3
+l41
+Z285 L15 100
+Z286 V9YhS[?D?X][V9M3FE1A6I1
+Z287 !s100 <fde=W<f8YIYAW@LTo4351
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_myfirstriscvdatapath
+Z288 w1758755834
+R238
+R2
+R3
+!i122 3
+R0
+Z289 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_MyFirstRISCVDatapath.vhd
+Z290 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_MyFirstRISCVDatapath.vhd
+l0
+R241
+V80h2?n8X1Cb?TFz:4@Elo3
+!s100 KbZOIgC8>dQZ[Dh7l1K?11
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z291 DEx4 work 23 tb_myfirstriscvdatapath 0 22 80h2?n8X1Cb?TFz:4@Elo3
+!i122 3
+l53
+Z292 L15 381
+Z293 VSV^;aQfXb8Y4=znMfGe=b0
+Z294 !s100 LFQHF0_;GgSKWz1B4`5^^1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_mysecondriscvdatapath
+Z295 w1759861709
+R238
+R2
+R3
+!i122 3
+R0
+Z296 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_MySecondRISCVDatapath.vhd
+Z297 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_MySecondRISCVDatapath.vhd
+l0
+R241
+VLY=WTU52Pkzm0kUR_cJC71
+!s100 bI13ZG7[6U<9[g9YESOXN3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z298 DEx4 work 24 tb_mysecondriscvdatapath 0 22 LY=WTU52Pkzm0kUR_cJC71
+!i122 3
+l65
+Z299 L15 463
+Z300 VCZ8fo64Wm001V@HO]G_OP3
+Z301 !s100 ]^N=nKnbNFK10kOG65@YX2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_riscvsinglecycleprocessor
+Z302 w1761780798
+R238
+R2
+R3
+!i122 3
+R0
+Z303 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_RISCVSingleCycleProcessor.vhd
+Z304 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/tb_RISCVSingleCycleProcessor.vhd
+l0
+R241
+V6KS:[Cj=JA8>Oo4kY[i?S3
+!s100 @<_JdYV;6E^O8D_NCM@Vb1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Amixed
+R238
+R2
+R3
+Z305 DEx4 work 28 tb_riscvsinglecycleprocessor 0 22 6KS:[Cj=JA8>Oo4kY[i?S3
+!i122 3
+l44
+Z306 L15 94
+Z307 V2ii0hfIMX0SOSd96L<@7A2
+Z308 !s100 4nReRbQmE5kRULAHi^:gI2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Exorg2
+R45
+R2
+R3
+!i122 3
+R0
+Z309 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/xorg2.vhd
+Z310 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/xorg2.vhd
+l0
+R48
+V;hb`C0MKik;h36`3`SzM60
+!s100 [hI[mXFH4_j16U;>U1Lfn2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+Z311 DEx4 work 5 xorg2 0 22 ;hb`C0MKik;h36`3`SzM60
+!i122 3
+l32
+R50
+Z312 VbmLohbkYjJQ`?EHUY>LoL1
+Z313 !s100 Z6[FAPS4fBLB`F?OO<AY72
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Exorg2_n
+Z314 w1761165894
+R2
+R3
+!i122 3
+R0
+Z315 8/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/xorg2_N.vhd
+Z316 F/home/pgask26/cpre381/CPRE381Pro1Repo/CPRE381/cpre3810-toolflow/proj/src/xorg2_N.vhd
+l0
+R48
+V]7e=8>6=^^KJcBo;l@Sj00
+!s100 4MD[HD9m<i4J4To0]ETT>1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+Z317 DEx4 work 7 xorg2_n 0 22 ]7e=8>6=^^KJcBo;l@Sj00
+!i122 3
+l40
+R57
+Z318 Vm4=_L5=YiB?G:]BABQO7@0
+Z319 !s100 g2F4I0C<UdWOLKfUDJNFH3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12

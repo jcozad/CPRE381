@@ -1,0 +1,347 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vsim work.tb_tpu_mv_element -voptargs=+acc
+# vsim work.tb_tpu_mv_element -voptargs="+acc" 
+# Start time: 14:57:32 on Sep 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+add wave -position insertpoint  \
+sim:/tb_tpu_mv_element/s_iLdW \
+sim:/tb_tpu_mv_element/s_iW \
+sim:/tb_tpu_mv_element/s_iX \
+sim:/tb_tpu_mv_element/s_iY \
+sim:/tb_tpu_mv_element/s_oX \
+sim:/tb_tpu_mv_element/s_oY
+run 500
+quit -sim
+# End time: 15:00:41 on Sep 15,2025, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:02:50 on Sep 15,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity FullAdder
+# -- Compiling architecture Behavioral of FullAdder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 15:02:50 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tpu_mv_element
+# vsim -voptargs="+acc" work.tpu_mv_element 
+# Start time: 15:03:02 on Sep 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+add wave -position insertpoint  \
+sim:/tpu_mv_element/iCLK \
+sim:/tpu_mv_element/iLdW \
+sim:/tpu_mv_element/iW \
+sim:/tpu_mv_element/iX \
+sim:/tpu_mv_element/iY \
+sim:/tpu_mv_element/oX \
+sim:/tpu_mv_element/oY \
+sim:/tpu_mv_element/s_W \
+sim:/tpu_mv_element/s_WxX \
+sim:/tpu_mv_element/s_X1 \
+sim:/tpu_mv_element/s_Y1
+run 500
+quit -sim
+# End time: 15:04:02 on Sep 15,2025, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:04:26 on Sep 15,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity FullAdder
+# -- Compiling architecture Behavioral of FullAdder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 15:04:26 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:04:27 on Sep 15,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity FullAdder
+# -- Compiling architecture Behavioral of FullAdder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 15:04:27 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_tpu_mv_element
+# vsim -voptargs="+acc" work.tb_tpu_mv_element 
+# Start time: 15:04:38 on Sep 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:04:52 on Sep 15,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity FullAdder
+# -- Compiling architecture Behavioral of FullAdder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# End time: 15:04:53 on Sep 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint  \
+sim:/tb_tpu_mv_element/s_iLdW \
+sim:/tb_tpu_mv_element/s_iW \
+sim:/tb_tpu_mv_element/s_iX \
+sim:/tb_tpu_mv_element/s_iY \
+sim:/tb_tpu_mv_element/s_oX \
+sim:/tb_tpu_mv_element/s_oY
+run 500
+quit -sim
+# End time: 15:08:00 on Sep 15,2025, Elapsed time: 0:03:22
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:08:23 on Sep 15,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity FullAdder
+# -- Compiling architecture Behavioral of FullAdder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 15:08:23 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:08:24 on Sep 15,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity FullAdder
+# -- Compiling architecture Behavioral of FullAdder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 15:08:24 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_tpu_mv_element
+# vsim -voptargs="+acc" work.tb_tpu_mv_element 
+# Start time: 15:08:36 on Sep 15,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+add wave -position insertpoint  \
+sim:/tb_tpu_mv_element/s_iW \
+sim:/tb_tpu_mv_element/s_iX \
+sim:/tb_tpu_mv_element/s_iY \
+sim:/tb_tpu_mv_element/s_oX \
+sim:/tb_tpu_mv_element/s_oY
+run 500
+vcom -reportprogress 300 -work work {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd} {/home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:09:29 on Sep 15,2025
+# vcom -reportprogress 300 -work work /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Adder.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/TPU_MV_Element.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_TPU_MV_Element.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/BehavioralVHDL_TEMPLATE.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Multiplier.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/Reg.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/RegLd.vhd /home/pgask26/cpre381/CPRE381 NEW/lab1_contents/Lab1/TPU (moved files around might not work correctly?)/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity FullAdder
+# -- Compiling architecture Behavioral of FullAdder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# End time: 15:09:29 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+run 500
+quit -sim
+# End time: 15:11:45 on Sep 15,2025, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 1

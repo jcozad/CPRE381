@@ -232,7 +232,7 @@ begin
              i_D1 => s_DMemOut,
              o_O   => s_RegWrData);
 
-    fetch: Fetch_Logic Port map (iCLK, iRST, INSERT, INSERT, INSERT); --insert PCSrc
+    fetch: Fetch_Logic Port map (iCLK, iRST, extenderTOMUX, Wire_PCSrc, s_NextInstAddr);
 
 end structure;
 
