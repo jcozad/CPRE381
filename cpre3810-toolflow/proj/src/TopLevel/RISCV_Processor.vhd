@@ -71,7 +71,6 @@ architecture structure of RISCV_Processor is
   -- TODO: You may add any additional signals or components your implementation 
   --       requires below this comment
 
-
     component mux2t1_N --N-bit 2:1 mux
   generic(N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
   port(i_S          : in std_logic;
@@ -80,9 +79,10 @@ architecture structure of RISCV_Processor is
        o_O          : out std_logic_vector(N-1 downto 0));
     end component;
 
-    component extender_12t32 --REWORK THE EXTENDER ITS WRONG
+    component extender_12t32 --DONT FORGET REWORK THE EXTENDER ITS WRONG
   port(
-    ivalue : in  std_logic_vector(11 downto 0);  --imm[11:0]
+    ivalue : in  std_logic_vector(31 downto 0);  
+    immType : in  std_logic_vector(2 downto 0);  
     ovalue : out std_logic_vector(31 downto 0)   --sign-extended
   );
     end component;
@@ -106,6 +106,50 @@ architecture structure of RISCV_Processor is
            PRSrc : in STD_LOGIC;
            NextInstAddress : out STD_LOGIC_VECTOR(31 downto 0));
     end component;
+
+    component ALU
+    Port ( A : in std_logic_vector(31 downto 0);
+           B : in std_logic_vector(31 downto 0);
+           ALUControl : in std_logic_vector(3 downto 0);
+           Overflow : out STD_LOGIC;
+           Zero : out STD_LOGIC;
+           ALUOut : out std_logic_vector(31 downto 0));
+    end component;
+
+    component Control_Logic --Control logic
+    Port ( Opcode : in std_logic_vector(6 downto 0);
+           ALUSrc : out STD_LOGIC;
+           ALUControl : out std_logic_vector(3 downto 0);
+           ImmType : out std_logic_vector(2 downto 0);
+           ResultSrc : out STD_LOGIC;
+           MemWrite : out STD_LOGIC;
+           PCSrc : out STD_LOGIC; -- if 0 do normal, if 1 branch
+           RegDst : out STD_LOGIC;
+           RegWrite : out STD_LOGIC);
+    end component;
+
+    --Control Signals
+    signal Wire_Opcode : std_logic_vector(6 downto 0);
+    signal Wire_ALUSrc : STD_LOGIC;
+    signal Wire_ALUControl : std_logic_vector(3 downto 0);
+    signal Wire_ImmType : std_logic_vector(2 downto 0);
+    signal Wire_ResultSrc : STD_LOGIC;
+    signal Wire_MemWrite : STD_LOGIC;
+    signal Wire_RegWrite : STD_LOGIC;
+    signal Wire_RegDst : STD_LOGIC; 
+    signal Wire_PCSrc : STD_LOGIC;
+
+    signal s_Inst_24to20 : std_logic_vector(4 downto 0);
+    signal s_Inst_19to15 : std_logic_vector(4 downto 0);
+    signal s_Inst_11to7 : std_logic_vector(4 downto 0);
+
+    signal register1TOALU : std_logic_vector(31 downto 0);
+    signal register2TOALU : std_logic_vector(31 downto 0);
+    signal extenderTOMUX : std_logic_vector(31 downto 0);
+    signal mux2t1TOALU : std_logic_vector(31 downto 0);
+
+    signal wireZero : STD_LOGIC;
+    signal s_ALUOut : std_logic_vector(31 downto 0);
 
 begin
 
@@ -137,6 +181,68 @@ begin
   -- TODO: Ensure that s_Ovfl is connected to the overflow output of your ALU
 
   -- TODO: Implement the rest of your processor below this comment! 
+
+    Wire_Opcode(0) <= s_Inst(0);
+    Wire_Opcode(1) <= s_Inst(1);
+    Wire_Opcode(2) <= s_Inst(2);
+    Wire_Opcode(3) <= s_Inst(3);
+    Wire_Opcode(4) <= s_Inst(4);
+    Wire_Opcode(5) <= s_Inst(5);
+    Wire_Opcode(6) <= s_Inst(6);
+
+    Control: Control_Logic Port map (Wire_Opcode, Wire_ALUSrc, Wire_ALUControl, Wire_ImmType, Wire_ResultSrc, Wire_MemWrite, Wire_PCSrc, Wire_RegDst, Wire_RegWrite);
+
+    s_Inst_24to20(0) <= s_Inst(20);
+    s_Inst_24to20(1) <= s_Inst(21);
+    s_Inst_24to20(2) <= s_Inst(22);
+    s_Inst_24to20(3) <= s_Inst(23);
+    s_Inst_24to20(4) <= s_Inst(24);
+
+    s_Inst_11to7(0) <= s_Inst(7);
+    s_Inst_11to7(1) <= s_Inst(8);
+    s_Inst_11to7(2) <= s_Inst(9);
+    s_Inst_11to7(3) <= s_Inst(10);
+    s_Inst_11to7(4) <= s_Inst(11);
+
+    s_Inst_19to15(0) <= s_Inst(15);
+    s_Inst_19to15(1) <= s_Inst(16);
+    s_Inst_19to15(2) <= s_Inst(17);
+    s_Inst_19to15(3) <= s_Inst(18);
+    s_Inst_19to15(4) <= s_Inst(19);
+
+  mux2T1_4b: mux2t1_N
+    generic map(N => 5)
+    port map(i_S  => Wire_RegDst,
+             i_D0 => s_Inst_24to20,
+             i_D1 => s_Inst_11to7,
+             o_O   => s_RegWrAddr);
+
+    s_RegWr <= Wire_RegWrite;
+
+    RegisterFile: Register_File Port map (s_Inst_19to15, s_Inst_24to20, s_RegWrAddr, iCLK, s_RegWrData, Wire_RegWrite, iRST, register1TOALU, register2TOALU);
+
+    extender: extender_12t32 Port map (s_Inst, Wire_ImmType, extenderTOMUX);
+
+  mux2T1_32b: mux2t1_N
+    generic map(N => 32)
+    port map(i_S  => Wire_ALUSrc,
+             i_D0 => register2TOALU,
+             i_D1 => extenderTOMUX,
+             o_O   => mux2t1TOALU);
+
+    Alufile: ALU Port map (register1TOALU, mux2t1TOALU, Wire_ALUControl, s_Ovfl, wireZero, s_ALUOut);
+
+    oALUOut <= s_ALUOut;
+    s_DMemAddr <= s_ALUOut;
+    s_DMemData <= register2TOALU;
+    s_DMemWr <= Wire_MemWrite;
+
+  mux2T1_32b_2: mux2t1_N
+    generic map(N => 32)
+    port map(i_S  => Wire_ResultSrc,
+             i_D0 => s_DMemAddr,
+             i_D1 => s_DMemOut,
+             o_O   => s_RegWrData);
 
 end structure;
 
